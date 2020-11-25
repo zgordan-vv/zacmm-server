@@ -6,10 +6,10 @@ package migrations
 import (
 	"net/http"
 
-	"github.com/mattermost/mattermost-server/v5/app"
-	tjobs "github.com/mattermost/mattermost-server/v5/jobs/interfaces"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store"
+	"github.com/zgordan-vv/zacmm-server/app"
+	tjobs "github.com/zgordan-vv/zacmm-server/jobs/interfaces"
+	"github.com/zgordan-vv/zacmm-server/model"
+	"github.com/zgordan-vv/zacmm-server/store"
 )
 
 const (

@@ -6,7 +6,7 @@ package config
 import (
 	"encoding/json"
 
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/zgordan-vv/zacmm-server/model"
 )
 
 // marshalConfig converts the given configuration into JSON bytes for persistence.

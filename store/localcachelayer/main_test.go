@@ -7,14 +7,14 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/services/cache"
+	"github.com/zgordan-vv/zacmm-server/mlog"
+	"github.com/zgordan-vv/zacmm-server/services/cache"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	cachemocks "github.com/mattermost/mattermost-server/v5/services/cache/mocks"
-	"github.com/mattermost/mattermost-server/v5/store"
-	"github.com/mattermost/mattermost-server/v5/store/storetest/mocks"
-	"github.com/mattermost/mattermost-server/v5/testlib"
+	"github.com/zgordan-vv/zacmm-server/model"
+	cachemocks "github.com/zgordan-vv/zacmm-server/services/cache/mocks"
+	"github.com/zgordan-vv/zacmm-server/store"
+	"github.com/zgordan-vv/zacmm-server/store/storetest/mocks"
+	"github.com/zgordan-vv/zacmm-server/testlib"
 	"github.com/stretchr/testify/mock"
 )
 

@@ -6,9 +6,9 @@ package scheduler
 import (
 	"time"
 
-	"github.com/mattermost/mattermost-server/v5/app"
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/zgordan-vv/zacmm-server/app"
+	"github.com/zgordan-vv/zacmm-server/mlog"
+	"github.com/zgordan-vv/zacmm-server/model"
 )
 
 const pluginsJobInterval = 24 * 60 * 60 * time.Second

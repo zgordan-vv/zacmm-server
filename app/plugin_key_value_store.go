@@ -9,9 +9,9 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store"
+	"github.com/zgordan-vv/zacmm-server/mlog"
+	"github.com/zgordan-vv/zacmm-server/model"
+	"github.com/zgordan-vv/zacmm-server/store"
 )
 
 func getKeyHash(key string) string {

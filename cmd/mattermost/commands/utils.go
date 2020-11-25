@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/mattermost/mattermost-server/v5/mlog"
+	"github.com/zgordan-vv/zacmm-server/mlog"
 	"github.com/spf13/cobra"
 )
 

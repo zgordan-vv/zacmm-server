@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/zgordan-vv/zacmm-server/mlog"
+	"github.com/zgordan-vv/zacmm-server/model"
 )
 
 func (a *App) MakePermissionError(permissions []*model.Permission) *model.AppError {

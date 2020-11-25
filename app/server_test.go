@@ -21,12 +21,12 @@ import (
 	"time"
 
 	"github.com/getsentry/sentry-go"
-	"github.com/mattermost/mattermost-server/v5/mlog"
+	"github.com/zgordan-vv/zacmm-server/mlog"
 
-	"github.com/mattermost/mattermost-server/v5/config"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store/storetest"
-	"github.com/mattermost/mattermost-server/v5/utils/fileutils"
+	"github.com/zgordan-vv/zacmm-server/config"
+	"github.com/zgordan-vv/zacmm-server/model"
+	"github.com/zgordan-vv/zacmm-server/store/storetest"
+	"github.com/zgordan-vv/zacmm-server/utils/fileutils"
 	"github.com/stretchr/testify/require"
 )
 

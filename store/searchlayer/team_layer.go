@@ -4,8 +4,8 @@
 package searchlayer
 
 import (
-	model "github.com/mattermost/mattermost-server/v5/model"
-	store "github.com/mattermost/mattermost-server/v5/store"
+	model "github.com/zgordan-vv/zacmm-server/model"
+	store "github.com/zgordan-vv/zacmm-server/store"
 )
 
 type SearchTeamStore struct {

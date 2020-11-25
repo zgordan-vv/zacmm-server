@@ -9,9 +9,9 @@ import (
 
 	"github.com/go-sql-driver/mysql"
 	"github.com/lib/pq"
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/testlib"
+	"github.com/zgordan-vv/zacmm-server/mlog"
+	"github.com/zgordan-vv/zacmm-server/model"
+	"github.com/zgordan-vv/zacmm-server/testlib"
 	"github.com/stretchr/testify/require"
 )
 

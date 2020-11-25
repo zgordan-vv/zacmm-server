@@ -14,7 +14,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/zgordan-vv/zacmm-server/model"
 )
 
 func CheckOrigin(r *http.Request, allowedOrigins string) bool {

@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/zgordan-vv/zacmm-server/model"
 )
 
 func IsPasswordValidWithSettings(password string, settings *model.PasswordSettings) *model.AppError {

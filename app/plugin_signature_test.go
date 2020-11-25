@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store/storetest/mocks"
-	"github.com/mattermost/mattermost-server/v5/utils/fileutils"
+	"github.com/zgordan-vv/zacmm-server/model"
+	"github.com/zgordan-vv/zacmm-server/store/storetest/mocks"
+	"github.com/zgordan-vv/zacmm-server/utils/fileutils"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

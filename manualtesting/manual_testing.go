@@ -12,14 +12,14 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/mattermost/mattermost-server/v5/api4"
-	"github.com/mattermost/mattermost-server/v5/app"
-	"github.com/mattermost/mattermost-server/v5/app/slashcommands"
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store"
-	"github.com/mattermost/mattermost-server/v5/utils"
-	"github.com/mattermost/mattermost-server/v5/web"
+	"github.com/zgordan-vv/zacmm-server/api4"
+	"github.com/zgordan-vv/zacmm-server/app"
+	"github.com/zgordan-vv/zacmm-server/app/slashcommands"
+	"github.com/zgordan-vv/zacmm-server/mlog"
+	"github.com/zgordan-vv/zacmm-server/model"
+	"github.com/zgordan-vv/zacmm-server/store"
+	"github.com/zgordan-vv/zacmm-server/utils"
+	"github.com/zgordan-vv/zacmm-server/web"
 )
 
 // TestEnvironment is a helper struct used for tests in manualtesting.

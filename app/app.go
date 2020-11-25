@@ -14,15 +14,15 @@ import (
 
 	"github.com/mattermost/go-i18n/i18n"
 	goi18n "github.com/mattermost/go-i18n/i18n"
-	"github.com/mattermost/mattermost-server/v5/einterfaces"
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/services/httpservice"
-	"github.com/mattermost/mattermost-server/v5/services/imageproxy"
-	"github.com/mattermost/mattermost-server/v5/services/mailservice"
-	"github.com/mattermost/mattermost-server/v5/services/searchengine"
-	"github.com/mattermost/mattermost-server/v5/services/timezones"
-	"github.com/mattermost/mattermost-server/v5/utils"
+	"github.com/zgordan-vv/zacmm-server/einterfaces"
+	"github.com/zgordan-vv/zacmm-server/mlog"
+	"github.com/zgordan-vv/zacmm-server/model"
+	"github.com/zgordan-vv/zacmm-server/services/httpservice"
+	"github.com/zgordan-vv/zacmm-server/services/imageproxy"
+	"github.com/zgordan-vv/zacmm-server/services/mailservice"
+	"github.com/zgordan-vv/zacmm-server/services/searchengine"
+	"github.com/zgordan-vv/zacmm-server/services/timezones"
+	"github.com/zgordan-vv/zacmm-server/utils"
 )
 
 type App struct {

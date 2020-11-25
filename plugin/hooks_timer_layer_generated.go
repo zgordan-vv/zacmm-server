@@ -11,8 +11,8 @@ import (
 	"net/http"
 	timePkg "time"
 
-	"github.com/mattermost/mattermost-server/v5/einterfaces"
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/zgordan-vv/zacmm-server/einterfaces"
+	"github.com/zgordan-vv/zacmm-server/model"
 )
 
 type hooksTimerLayer struct {

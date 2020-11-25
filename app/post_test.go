@@ -13,14 +13,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/plugin/plugintest/mock"
-	"github.com/mattermost/mattermost-server/v5/services/imageproxy"
-	"github.com/mattermost/mattermost-server/v5/services/searchengine/mocks"
-	"github.com/mattermost/mattermost-server/v5/store/storetest"
-	storemocks "github.com/mattermost/mattermost-server/v5/store/storetest/mocks"
-	"github.com/mattermost/mattermost-server/v5/testlib"
+	"github.com/zgordan-vv/zacmm-server/mlog"
+	"github.com/zgordan-vv/zacmm-server/model"
+	"github.com/zgordan-vv/zacmm-server/plugin/plugintest/mock"
+	"github.com/zgordan-vv/zacmm-server/services/imageproxy"
+	"github.com/zgordan-vv/zacmm-server/services/searchengine/mocks"
+	"github.com/zgordan-vv/zacmm-server/store/storetest"
+	storemocks "github.com/zgordan-vv/zacmm-server/store/storetest/mocks"
+	"github.com/zgordan-vv/zacmm-server/testlib"
 )
 
 func TestCreatePostDeduplicate(t *testing.T) {
@@ -54,8 +54,8 @@ func TestCreatePostDeduplicate(t *testing.T) {
 			package main
 
 			import (
-				"github.com/mattermost/mattermost-server/v5/plugin"
-				"github.com/mattermost/mattermost-server/v5/model"
+				"github.com/zgordan-vv/zacmm-server/plugin"
+				"github.com/zgordan-vv/zacmm-server/model"
 			)
 
 			type MyPlugin struct {
@@ -103,8 +103,8 @@ func TestCreatePostDeduplicate(t *testing.T) {
 			package main
 
 			import (
-				"github.com/mattermost/mattermost-server/v5/plugin"
-				"github.com/mattermost/mattermost-server/v5/model"
+				"github.com/zgordan-vv/zacmm-server/plugin"
+				"github.com/zgordan-vv/zacmm-server/model"
 				"time"
 			)
 

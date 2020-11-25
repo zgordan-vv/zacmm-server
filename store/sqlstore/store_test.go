@@ -8,10 +8,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store"
-	"github.com/mattermost/mattermost-server/v5/store/searchtest"
-	"github.com/mattermost/mattermost-server/v5/store/storetest"
+	"github.com/zgordan-vv/zacmm-server/model"
+	"github.com/zgordan-vv/zacmm-server/store"
+	"github.com/zgordan-vv/zacmm-server/store/searchtest"
+	"github.com/zgordan-vv/zacmm-server/store/storetest"
 )
 
 type storeType struct {

@@ -6,10 +6,10 @@ package sqlstore_test
 import (
 	"testing"
 
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/store/sqlstore"
+	"github.com/zgordan-vv/zacmm-server/mlog"
+	"github.com/zgordan-vv/zacmm-server/store/sqlstore"
 
-	"github.com/mattermost/mattermost-server/v5/testlib"
+	"github.com/zgordan-vv/zacmm-server/testlib"
 )
 
 var mainHelper *testlib.MainHelper

@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"github.com/hashicorp/go-hclog"
-	"github.com/mattermost/mattermost-server/v5/mlog"
+	"github.com/zgordan-vv/zacmm-server/mlog"
 )
 
 type hclogAdapter struct {

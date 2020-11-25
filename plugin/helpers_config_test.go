@@ -6,9 +6,9 @@ package plugin_test
 import (
 	"testing"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/plugin"
-	"github.com/mattermost/mattermost-server/v5/plugin/plugintest"
+	"github.com/zgordan-vv/zacmm-server/model"
+	"github.com/zgordan-vv/zacmm-server/plugin"
+	"github.com/zgordan-vv/zacmm-server/plugin/plugintest"
 	"github.com/stretchr/testify/assert"
 )
 

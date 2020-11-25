@@ -18,14 +18,14 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/plugin"
-	"github.com/mattermost/mattermost-server/v5/plugin/plugintest"
-	"github.com/mattermost/mattermost-server/v5/services/httpservice"
-	"github.com/mattermost/mattermost-server/v5/services/searchengine"
-	"github.com/mattermost/mattermost-server/v5/services/telemetry/mocks"
-	storeMocks "github.com/mattermost/mattermost-server/v5/store/storetest/mocks"
+	"github.com/zgordan-vv/zacmm-server/mlog"
+	"github.com/zgordan-vv/zacmm-server/model"
+	"github.com/zgordan-vv/zacmm-server/plugin"
+	"github.com/zgordan-vv/zacmm-server/plugin/plugintest"
+	"github.com/zgordan-vv/zacmm-server/services/httpservice"
+	"github.com/zgordan-vv/zacmm-server/services/searchengine"
+	"github.com/zgordan-vv/zacmm-server/services/telemetry/mocks"
+	storeMocks "github.com/zgordan-vv/zacmm-server/store/storetest/mocks"
 )
 
 type FakeConfigService struct {

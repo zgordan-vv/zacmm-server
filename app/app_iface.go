@@ -20,21 +20,25 @@ import (
 	"github.com/gorilla/websocket"
 	"github.com/mattermost/go-i18n/i18n"
 	goi18n "github.com/mattermost/go-i18n/i18n"
-	"github.com/mattermost/mattermost-server/v5/audit"
-	"github.com/mattermost/mattermost-server/v5/einterfaces"
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/plugin"
-	"github.com/mattermost/mattermost-server/v5/services/filesstore"
-	"github.com/mattermost/mattermost-server/v5/services/httpservice"
-	"github.com/mattermost/mattermost-server/v5/services/imageproxy"
-	"github.com/mattermost/mattermost-server/v5/services/searchengine"
-	"github.com/mattermost/mattermost-server/v5/services/timezones"
-	"github.com/mattermost/mattermost-server/v5/store"
+	"github.com/zgordan-vv/zacmm-server/audit"
+	"github.com/zgordan-vv/zacmm-server/einterfaces"
+	"github.com/zgordan-vv/zacmm-server/mlog"
+	"github.com/zgordan-vv/zacmm-server/model"
+	"github.com/zgordan-vv/zacmm-server/plugin"
+	"github.com/zgordan-vv/zacmm-server/services/filesstore"
+	"github.com/zgordan-vv/zacmm-server/services/httpservice"
+	"github.com/zgordan-vv/zacmm-server/services/imageproxy"
+	"github.com/zgordan-vv/zacmm-server/services/searchengine"
+	"github.com/zgordan-vv/zacmm-server/services/timezones"
+	"github.com/zgordan-vv/zacmm-server/store"
 )
 
 // AppIface is extracted from App struct and contains all it's exported methods. It's provided to allow partial interface passing and app layers creation.
 type AppIface interface {
+	AddToWhitelist(item *model.WhitelistItem) *model.AppError
+	DeleteFromWhitelist(item *model.WhitelistItem) *model.AppError
+	GetWhitelist(userId string) ([]string, *model.AppError)
+	CheckWhitelisted(userId, ip string) (bool, *model.AppError)
 	// @openTracingParams args
 	ExecuteCommand(args *model.CommandArgs) (*model.CommandResponse, *model.AppError)
 	// @openTracingParams teamId

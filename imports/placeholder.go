@@ -5,20 +5,20 @@ package imports
 
 import (
 	// This is a placeholder so this package can be imported in Team Edition when it will be otherwise empty.
-	_ "github.com/mattermost/mattermost-server/v5/migrations"
+	_ "github.com/zgordan-vv/zacmm-server/migrations"
 
 	// This is a placeholder so this package can be imported in Team Edition when it will be otherwise empty.
-	_ "github.com/mattermost/mattermost-server/v5/plugin/scheduler"
+	_ "github.com/zgordan-vv/zacmm-server/plugin/scheduler"
 
 	// This is a placeholder so this package can be imported in Team Edition when it will be otherwise empty.
-	_ "github.com/mattermost/mattermost-server/v5/services/searchengine/bleveengine/indexer"
+	_ "github.com/zgordan-vv/zacmm-server/services/searchengine/bleveengine/indexer"
 
 	// This is a placeholder so this package can be imported in Team Edition when it will be otherwise empty.
-	_ "github.com/mattermost/mattermost-server/v5/jobs/expirynotify"
+	_ "github.com/zgordan-vv/zacmm-server/jobs/expirynotify"
 
 	// This is a placeholder so this package can be imported in Team Edition when it will be otherwise empty.
-	_ "github.com/mattermost/mattermost-server/v5/jobs/active_users"
+	_ "github.com/zgordan-vv/zacmm-server/jobs/active_users"
 
 	// This is a placeholder so this package can be imported in Team Edition when it will be otherwise empty.
-	_ "github.com/mattermost/mattermost-server/v5/jobs/product_notices"
+	_ "github.com/zgordan-vv/zacmm-server/jobs/product_notices"
 )

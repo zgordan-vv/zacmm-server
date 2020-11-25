@@ -8,8 +8,8 @@ import (
 
 	"math"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store"
+	"github.com/zgordan-vv/zacmm-server/model"
+	"github.com/zgordan-vv/zacmm-server/store"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mattermost/mattermost-server/v5/config"
+	"github.com/zgordan-vv/zacmm-server/config"
 )
 
 func setupConfigMemory(t *testing.T) {

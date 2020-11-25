@@ -7,7 +7,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/mattermost/mattermost-server/v5/audit"
+	"github.com/zgordan-vv/zacmm-server/audit"
 	"github.com/spf13/cobra"
 )
 
